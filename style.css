@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url();
+    background-position:bottom;
+    background-repeat:space;
+
+}
+
+.wrapper{
+    display: flex; /* merubah menjadi row */
+    justify-content: center;
+    align-items: center;  
+    gap: 20px; /* memberi jarak pada semua bagian sebesar 20px secara vertikal */
+    height: 100%;
+    flex-direction: column;
+}
+
+.bottom{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    justify-content: center; /* postion secara vertikal dan horizontal */
+    padding: 10px; /*jarak antara item */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* apa itu margin */
+}
+
+.form{
+    display: flex; /* mengubah item menjadi hotizontal */
+    flex-direction:column; /* di rubah menjadi column (kolom)*/
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+input{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 8px;
+    height: 35px;
+    width: 350px;
+}
+
+.button-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button{
+    padding: 8px;
+    background-color: grey;
+    width: 319px;
+    height: 45px;
+    border: none; /* cara menghilangkal border */
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex; /* cara merubah konten menjadi horizontal*/
+    gap: 9em;
+
+}
+a{
+    /* color: aliceblue; */
+    text-decoration: none;
+}
+
+.footer > a{
+    color: black;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+/* posisition */
